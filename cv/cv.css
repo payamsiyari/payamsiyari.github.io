@@ -1,0 +1,44 @@
+.wrapper {
+	position: absolute;
+  	bottom: -95%;
+  	right: 50%;
+}
+.container {
+	position: relative;
+  	left: 50%;
+  	top: 50%;
+}
+h1{font-size:35px;}
+h2{font-size:30px;}
+h3{font-size:25px;}
+h4{font-size:20px;}
+table#tlayout {
+    border: none;
+    border-collapse: separate;
+    background: white;
+}
+body {
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin: 0 auto;
+}
+a {
+  color: #527bbd;
+}
+
+@media (prefers-color-scheme: dark) {
+	table#tlayout {
+    border: none;
+    border-collapse: separate;
+    background: #1a1b1e;
+	}
+
+	body {
+		background: #1a1b1e;
+		font-family: Georgia, serif;
+		padding-bottom: 8px;
+		margin: 0 auto;
+		color: #e8e5e3;
+	}
+}
