@@ -1,12 +1,11 @@
 .wrapper {
 	position: absolute;
   	right: 50%;
-	overflow-x:auto;
 }
 .container {
 	position: relative;
   	left: 50%;
-	overflow-x:auto;
+  	overflow-x:auto;
 }
 h1{font-size:35px;}
 h2{font-size:30px;}
